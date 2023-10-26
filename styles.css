@@ -1,0 +1,103 @@
+html, body, div, span {
+    margin: 0;
+    padding: 0;
+    border: 0;
+	vertical-align: baseline;
+}
+
+/* cada pixel tem 25 de width */
+
+:root {
+    --black: #000;
+    --dark-yellow: #b79828;
+    --light-yellow: #d4bd3b;
+    --red: #b51608;
+    --skin: #f3c297;
+    --white: #fff;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+.row {
+    height: 25px;
+    display: inline-block;
+}
+
+div {
+    display: flex;
+}
+
+.one { 
+    width: 25px;
+}
+
+.two { 
+    width: 50px;
+}
+
+.three{ 
+    width: 75px;
+}
+
+.four { 
+    width: 100px;
+}
+
+.five {
+    width: 125px;
+}
+
+.six {
+    width: 150px;
+}
+
+.seven {
+    width: 175px;
+}
+
+.eight {
+    width: 200px;
+}
+
+.nine {
+    width: 225px;
+}
+
+.ten {
+    width: 250px;
+}
+
+.twelve {
+    width: 300px;
+}
+
+.black {
+    background-color: var(--black);
+}
+
+.dark-yellow {
+    background-color: var(--dark-yellow);
+}
+
+.light-yellow{
+    background-color: var(--light-yellow);
+}
+
+.red{
+    background-color: var(--red);
+}
+
+.skin {
+    background-color: var(--skin);
+}
+
+.white {
+    background-color: var(--white);
+}
